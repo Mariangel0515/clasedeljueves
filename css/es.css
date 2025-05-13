@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #2d231f;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.logo-circle {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar .highlight {
+  color: #ff00a6;
+}
+
+.navbar .lang {
+  color: rgb(255, 170, 0);
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+
+.hero img{
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cta {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.cta-button {
+  background-color: #ff008c;
+  color: white;
+  font-size: 24px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.hotel {
+  text-align: center;
+  background-color: #fff;
+}
+
+.hotel h3 {
+  background-color: orange;
+  color: white;
+  padding: 10px 0;
+  font-size: 28px;
+}
+
+.hotel-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.hotel-item p {
+  font-weight: bold;
+  color: #ff008c;
+  margin-bottom: 10px;
+}
+
+.hotel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #2d231f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.email-signup {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .icon {
+  width: 24px;
+  height: 24px;
+}
